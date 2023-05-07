@@ -1,0 +1,106 @@
+body{
+    background-color: rgb(249, 248, 248);
+    font-family: 'Mukta', sans-serif;
+    font-family: 'Source Code Pro', monospace;
+    font-size: 20px;
+    text-align: center;  
+    margin: 0;   
+}
+
+header{
+    border-bottom: solid;
+    border-color: grey;
+    margin: 0;
+    padding: 0;   
+}
+
+.nav_contenedor{
+    display: flex;
+    height: 100%;
+    width: 100%;
+    margin: 0 auto;
+    justify-content: space-between;
+    align-items: center ;
+}
+
+.nav_menu{
+    display: grid;
+    grid-auto-flow: column;
+    gap: 1em;
+}
+
+.imglogo{
+    margin-right: 5%;
+    width: 100px;
+    padding: 0.5; 
+ }
+
+.imgfoto{
+    border-radius: 50%;
+    width: 280px;
+    border: 3px;
+    border-style: solid;   
+}
+
+.btnrrss {
+    font-style: italic;
+    font-size: .8em; 
+    padding: 10px ;
+    background-color: rgb(185, 4, 106);
+    color: white; 
+    text-decoration: none;
+    border-radius: 10px;
+    border-style: solid;
+    font-size: 0,8em;  
+}
+
+a {
+    padding: 9px ;
+    background-color: rgb(185, 4, 106);
+    color: white; 
+    text-decoration: none;
+    border-radius: 10px;
+    border-style: solid;
+    font-size: 70%;
+    margin: 2em ;   
+}
+
+#contacto{
+   background-color: rgb(220, 102, 169); 
+   border-radius: 25px;
+   padding: .5em;
+   margin: 20px 20px 55px 20px;   
+   align-items: center;   
+}
+
+#inicio{
+   align-content: center;
+   padding: 1.5em;
+}
+
+article {
+    box-sizing: border-box;
+    display: flex;
+    padding: .5em;
+}
+
+.DescargarCV{
+    background-color: rgb(185, 4, 106);
+    color: white; 
+    text-decoration: none;
+    font-style: italic;
+    font-size: .8em;   
+    padding: 10px ;
+}
+
+
+
+footer {
+    display: flexbox;
+    background-color: rgb(185, 4, 106);
+    color: white; 
+    margin-top: 15px;
+    font-size: 10px;
+    line-height: 2;
+    padding: 10px;
+}
